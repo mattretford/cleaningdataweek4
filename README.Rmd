@@ -1,0 +1,31 @@
+---
+title: "README for cleaning data assignment"
+output: html_document
+---
+
+### Inputs:
+
+## Files
+"run_analysis.R" - the analysis R script used to load, merge and tidy the data availble in the data folder
+
+## Data Files (contained in the 'data' folder):
+"test/X_test.txt "
+"test/y_test.txt"
+"test/subject_test.txt"
+"train/X_train.txt "
+"train/y_train.txt"
+"train/subject_train.txt"
+"features.txt"
+"activity_labels.txt"
+
+## Data from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+### Outputs:
+"AssignmentSubmission.txt" - the submitted assignment dataset 
+
+
+## Steps to run code
+1. Compile code in run_analysis.R file. To do this is RStudio - highlight all code in the run_analyis.R file and select "Run"
+2. In the console issue command Write(run_analysis()). This will result to "AssignmentSubmission.txt" being created 
+

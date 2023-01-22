@@ -1,13 +1,13 @@
 run_analysis <- function(){
   
   # read in test and train datasets
-  X_test <- read.table("test/X_test.txt") 
-  Y_test <- read.table("test/Y_test.txt")
-  subject_test <- read.table("test/subject_test.txt")
+  X_test <- read.table("data/test/X_test.txt") 
+  Y_test <- read.table("data/test/Y_test.txt")
+  subject_test <- read.table("data/test/subject_test.txt")
   
-  X_train <- read.table("train/X_train.txt") 
-  Y_train <- read.table("train/Y_train.txt")
-  subject_train <- read.table("train/subject_train.txt")
+  X_train <- read.table("data/train/X_train.txt") 
+  Y_train <- read.table("data/train/Y_train.txt")
+  subject_train <- read.table("data/train/subject_train.txt")
   
   features <- read.table("features.txt")
   activity_labels <- read.table("activity_labels.txt")
